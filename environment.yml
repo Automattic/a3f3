@@ -1,0 +1,38 @@
+name:
+  a3f3
+channels:
+-  defaults
+-  conda-forge
+
+dependencies:
+- python>=3.6
+- autopep8
+# Modules Required for the Server
+- bottle
+- fbprophet>=0.3
+# Modules Required for the Model
+- matplotlib
+- numpy
+- pandas
+- scipy
+- bokeh
+- panel
+- pip
+- pytest
+- requests
+
+# Not strictly needed for the server but nice to have for debugging-developing
+- ipython
+- ipywidgets
+- jupyter
+- jupyter_contrib_nbextensions
+- notebook
+- nbconvert
+- nbformat
+- pycodestyle
+- pylint
+- seaborn
+
+- pip:
+  - defopt
+  - seasonal
