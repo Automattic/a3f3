@@ -9,7 +9,8 @@ dependencies:
 - autopep8
 # Modules Required for the Server
 - bottle
-- fbprophet>=0.3
+- fbprophet
+- git
 # Modules Required for the Model
 - matplotlib
 - numpy
